@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.String?>
+<?import java.net.URL?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.effect.DropShadow?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.paint.Color?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="720.0" prefWidth="1080.0" style="-fx-background-color: #EEF5FF;" stylesheets="@style.css" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.AdminController">
+   <children>
+      <ImageView fitHeight="720.0" fitWidth="1132.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../images/AdminPage.png" />
+         </image>
+      </ImageView>
+      <AnchorPane prefHeight="72.0" prefWidth="1080.0" style="-fx-background-color: #176B87;">
+         <children>
+            <HBox layoutX="231.0" layoutY="-3.0" prefHeight="79.0" prefWidth="646.0" AnchorPane.bottomAnchor="-4.0" AnchorPane.rightAnchor="205.0" AnchorPane.topAnchor="-3.0">
+               <children>
+                  <Button mnemonicParsing="false" prefHeight="75.0" prefWidth="151.0" text="Appointment" textFill="WHITE">
+                     <stylesheets>
+                        <URL value="@style.css" />
+                        <URL value="@../style.css" />
+                     </stylesheets>
+                     <styleClass>
+                        <String fx:value="mouse-movedBUTTON" />
+                        <String fx:value="transparent" />
+                     </styleClass>
+                     <font>
+                        <Font name="System Bold" size="16.0" />
+                     </font>
+                  </Button>
+                  <Button mnemonicParsing="false" prefHeight="74.0" prefWidth="119.0" text="Dentists" textFill="WHITE">
+                     <styleClass>
+                        <String fx:value="mouse-movedBUTTON" />
+                        <String fx:value="transparent" />
+                        <String fx:value="text" />
+                     </styleClass>
+                     <stylesheets>
+                        <URL value="@style.css" />
+                        <URL value="@../style.css" />
+                     </stylesheets>
+                     <font>
+                        <Font name="System Bold" size="16.0" />
+                     </font>
+                  </Button>
+                  <Button mnemonicParsing="false" prefHeight="74.0" prefWidth="124.0" text="Dashboard" textFill="WHITE">
+                     <styleClass>
+                        <String fx:value="transparent" />
+                        <String fx:value="mouse-movedBUTTON" />
+                        <String fx:value="text" />
+                     </styleClass>
+                     <stylesheets>
+                        <URL value="@style.css" />
+                        <URL value="@../style.css" />
+                     </stylesheets>
+                     <font>
+                        <Font name="System Bold" size="16.0" />
+                     </font>
+                  </Button>
+                  <Button mnemonicParsing="false" prefHeight="74.0" prefWidth="128.0" text="Patients" textFill="WHITE">
+                     <styleClass>
+                        <String fx:value="mouse-movedBUTTON" />
+                        <String fx:value="transparent" />
+                        <String fx:value="text" />
+                     </styleClass>
+                     <stylesheets>
+                        <URL value="@style.css" />
+                        <URL value="@../style.css" />
+                     </stylesheets>
+                     <font>
+                        <Font name="System Bold" size="16.0" />
+                     </font>
+                  </Button>
+                  <Button mnemonicParsing="false" prefHeight="74.0" prefWidth="130.0" text="Services" textFill="WHITE">
+                     <styleClass>
+                        <String fx:value="mouse-movedBUTTON" />
+                        <String fx:value="transparent" />
+                        <String fx:value="text" />
+                     </styleClass>
+                     <stylesheets>
+                        <URL value="@style.css" />
+                        <URL value="@../style.css" />
+                     </stylesheets>
+                     <font>
+                        <Font name="System Bold" size="16.0" />
+                     </font>
+                  </Button>
+               </children>
+            </HBox>
+            <ImageView fitHeight="61.0" fitWidth="132.0" layoutX="31.0" layoutY="6.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../images/logowhite.png" />
+               </image>
+            </ImageView>
+            <Button layoutX="939.0" layoutY="-1.0" mnemonicParsing="false" prefHeight="72.0" prefWidth="143.0" text="Admin" textFill="WHITE">
+               <graphic>
+                  <ImageView fitHeight="23.0" fitWidth="28.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../images/admin.png" />
+                     </image>
+                  </ImageView>
+               </graphic>
+               <styleClass>
+                  <String fx:value="mouse-movedBUTTON" />
+                  <String fx:value="transparent" />
+                  <String fx:value="selectedbg" />
+                  <String fx:value="text" />
+               </styleClass>
+               <stylesheets>
+                  <URL value="@style.css" />
+                  <URL value="@../style.css" />
+               </stylesheets>
+               <font>
+                  <Font name="System Bold" size="16.0" />
+               </font>
+            </Button>
+         </children>
+      </AnchorPane>
+      <Button fx:id="mybutton1" layoutX="891.0" layoutY="186.0" mnemonicParsing="false" onAction="#login" prefHeight="43.0" prefWidth="123.0" style="-fx-background-radius: 20; -fx-border-radius: 20; -fx-border-width: 2;" text="Log Out" textFill="WHITE">
+         <font>
+            <Font name="Century Gothic" size="16.0" />
+         </font>
+         <styleClass>
+            <String fx:value="mouse-movedBUTTON" />
+            <String fx:value="backgroundButton" />
+            <String fx:value="text" />
+         </styleClass>
+         <effect>
+            <DropShadow height="29.79" radius="12.1975">
+               <color>
+                  <Color red="0.7105262875556946" green="0.7105262875556946" blue="0.7105262875556946" />
+               </color>
+            </DropShadow>
+         </effect>
+         <stylesheets>
+            <URL value="@style.css" />
+            <URL value="@../style.css" />
+         </stylesheets>
+      </Button>
+      <Label layoutX="235.0" layoutY="168.0" prefHeight="43.0" prefWidth="273.0" text="Juan Dela Cruz">
+         <font>
+            <Font name="System Bold" size="26.0" />
+         </font>
+      </Label>
+      <Label layoutX="159.0" layoutY="312.0" text="Juan Dela Cruz" />
+      <Label layoutX="159.0" layoutY="343.0" text="delacruzjuan@gmail.com" />
+      <Label layoutX="223.0" layoutY="377.0" text="09876543210" />
+      <Label layoutX="190.0" layoutY="408.0" text="juanydelacruzy" />
+      <Label layoutX="183.0" layoutY="442.0" text="matagalakobagomagreplymga1week" />
+      <Button fx:id="mybutton11" layoutX="891.0" layoutY="136.0" mnemonicParsing="false" onAction="#aboutuspage" prefHeight="43.0" prefWidth="123.0" style="-fx-background-radius: 20; -fx-border-radius: 20; -fx-border-width: 2;" text="About Us" textFill="WHITE">
+         <font>
+            <Font name="Century Gothic" size="16.0" />
+         </font>
+         <styleClass>
+            <String fx:value="mouse-movedBUTTON" />
+            <String fx:value="backgroundButton" />
+            <String fx:value="text" />
+         </styleClass>
+         <effect>
+            <DropShadow height="29.79" radius="12.1975">
+               <color>
+                  <Color red="0.7105262875556946" green="0.7105262875556946" blue="0.7105262875556946" />
+               </color>
+            </DropShadow>
+         </effect>
+         <stylesheets>
+            <URL value="@style.css" />
+            <URL value="@../style.css" />
+         </stylesheets>
+      </Button>
+   </children>
+</AnchorPane>

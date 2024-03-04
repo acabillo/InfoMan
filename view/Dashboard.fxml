@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.String?>
+<?import java.net.URL?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.effect.DropShadow?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.paint.Color?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="720.0" prefWidth="1080.0" style="-fx-background-color: #EEF5FF;" stylesheets="@style.css" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.DashboardController">
+   <children>
+      <ImageView fitHeight="720.0" fitWidth="1080.0" layoutY="1.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../images/dashboard.png" />
+         </image>
+      </ImageView>
+      <Button fx:id="mybutton1" layoutX="77.0" layoutY="291.0" mnemonicParsing="false" onAction="#book" prefHeight="50.0" prefWidth="281.0" style="-fx-background-radius: 20; -fx-border-radius: 20; -fx-border-width: 2;" text="BOOK AN APPOINTMENT" textFill="WHITE">
+         <font>
+            <Font name="Century Gothic Bold" size="15.0" />
+         </font>
+         <styleClass>
+            <String fx:value="mouse-movedBUTTON" />
+            <String fx:value="backgroundButton" />
+            <String fx:value="text" />
+         </styleClass>
+         <effect>
+            <DropShadow height="29.79" radius="12.1975">
+               <color>
+                  <Color red="0.7105262875556946" green="0.7105262875556946" blue="0.7105262875556946" />
+               </color>
+            </DropShadow>
+         </effect>
+         <stylesheets>
+            <URL value="@style.css" />
+            <URL value="@../style.css" />
+         </stylesheets>
+      </Button>
+      <Button fx:id="mybutton2" alignment="BOTTOM_CENTER" layoutX="34.0" layoutY="360.0" mnemonicParsing="false" onAction="#patientpage" prefHeight="97.0" prefWidth="116.0" style="-fx-background-radius: 20; -fx-border-radius: 20; -fx-border-width: 2;" text="Patient" textFill="WHITE">
+         <font>
+            <Font name="Century Gothic" size="15.0" />
+         </font>
+         <styleClass>
+            <String fx:value="mouse-movedBUTTON" />
+            <String fx:value="backgroundButton" />
+            <String fx:value="text" />
+         </styleClass>
+         <effect>
+            <DropShadow height="29.79" radius="12.1975">
+               <color>
+                  <Color red="0.7105262875556946" green="0.7105262875556946" blue="0.7105262875556946" />
+               </color>
+            </DropShadow>
+         </effect>
+         <stylesheets>
+            <URL value="@style.css" />
+            <URL value="@../style.css" />
+         </stylesheets>
+      </Button>
+      <Button fx:id="mybutton11" alignment="BOTTOM_CENTER" layoutX="160.0" layoutY="360.0" mnemonicParsing="false" onAction="#appointmentpage" prefHeight="97.0" prefWidth="116.0" style="-fx-background-radius: 20; -fx-border-radius: 20; -fx-border-width: 2;" text="Schedule" textFill="WHITE">
+         <font>
+            <Font name="Century Gothic" size="15.0" />
+         </font>
+         <styleClass>
+            <String fx:value="mouse-movedBUTTON" />
+            <String fx:value="backgroundButton" />
+            <String fx:value="text" />
+         </styleClass>
+         <effect>
+            <DropShadow height="29.79" radius="12.1975">
+               <color>
+                  <Color red="0.7105262875556946" green="0.7105262875556946" blue="0.7105262875556946" />
+               </color>
+            </DropShadow>
+         </effect>
+         <stylesheets>
+            <URL value="@style.css" />
+            <URL value="@../style.css" />
+         </stylesheets>
+      </Button>
+      <Button fx:id="mybutton111" alignment="BOTTOM_CENTER" layoutX="285.0" layoutY="360.0" mnemonicParsing="false" onAction="#dentistpage" prefHeight="97.0" prefWidth="116.0" style="-fx-background-radius: 20; -fx-border-radius: 20; -fx-border-width: 2;" text="Dentist" textFill="WHITE">
+         <font>
+            <Font name="Century Gothic" size="15.0" />
+         </font>
+         <styleClass>
+            <String fx:value="mouse-movedBUTTON" />
+            <String fx:value="backgroundButton" />
+            <String fx:value="text" />
+         </styleClass>
+         <effect>
+            <DropShadow height="29.79" radius="12.1975">
+               <color>
+                  <Color red="0.7105262875556946" green="0.7105262875556946" blue="0.7105262875556946" />
+               </color>
+            </DropShadow>
+         </effect>
+         <stylesheets>
+            <URL value="@style.css" />
+            <URL value="@../style.css" />
+         </stylesheets>
+      </Button>
+      <Button fx:id="mybutton112" alignment="BOTTOM_CENTER" layoutX="92.0" layoutY="473.0" mnemonicParsing="false" onAction="#servicepage" prefHeight="97.0" prefWidth="116.0" style="-fx-background-radius: 20; -fx-border-radius: 20; -fx-border-width: 2;" text="Services" textFill="WHITE">
+         <font>
+            <Font name="Century Gothic" size="15.0" />
+         </font>
+         <styleClass>
+            <String fx:value="mouse-movedBUTTON" />
+            <String fx:value="backgroundButton" />
+            <String fx:value="text" />
+         </styleClass>
+         <effect>
+            <DropShadow height="29.79" radius="12.1975">
+               <color>
+                  <Color red="0.7105262875556946" green="0.7105262875556946" blue="0.7105262875556946" />
+               </color>
+            </DropShadow>
+         </effect>
+         <stylesheets>
+            <URL value="@style.css" />
+            <URL value="@../style.css" />
+         </stylesheets>
+      </Button>
+      <Button fx:id="mybutton1111" alignment="BOTTOM_CENTER" layoutX="224.0" layoutY="473.0" mnemonicParsing="false" onAction="#adminpage" prefHeight="97.0" prefWidth="116.0" style="-fx-background-radius: 20; -fx-border-radius: 20; -fx-border-width: 2;" stylesheets="@../style.css" text="Admin" textFill="WHITE">
+         <font>
+            <Font name="Century Gothic" size="15.0" />
+         </font>
+         <styleClass>
+            <String fx:value="mouse-movedBUTTON" />
+            <String fx:value="backgroundButton" />
+            <String fx:value="text" />
+         </styleClass>
+         <effect>
+            <DropShadow height="29.79" radius="12.1975">
+               <color>
+                  <Color red="0.7105262875556946" green="0.7105262875556946" blue="0.7105262875556946" />
+               </color>
+            </DropShadow>
+         </effect>
+      </Button>
+      <ImageView fitHeight="49.0" fitWidth="48.0" layoutX="67.0" layoutY="387.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../images/patient%20icon.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="58.0" fitWidth="54.0" layoutX="191.0" layoutY="377.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../images/appointment%20icon.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="58.0" fitWidth="54.0" layoutX="317.0" layoutY="377.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../images/dentist%20icon.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="58.0" fitWidth="54.0" layoutX="123.0" layoutY="493.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../images/services%20icon.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="60.0" fitWidth="68.0" layoutX="252.0" layoutY="490.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../images/admin%20icon.png" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>

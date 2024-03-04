@@ -1,0 +1,109 @@
+
+.white-background { 
+    -fx-background-color: #ffffff;
+}
+
+
+.blue-background { 
+    -fx-background-color: #176B87;
+    -fx-border-width: 0px, 0px, 3px, 0px;
+}
+
+
+.transparent {
+    -fx-background-color: rgba (0,0,0,0);
+}
+
+
+
+ .mouse-moved:hover {
+    -fx-background-color: #ffffff;
+
+}
+
+
+.background {
+    -fx-background-color: rgb(219,205,240);
+    -fx-background-color: linear-gradient(0deg, rgba(219,205,240,1) 17%, rgba(247,217,196,1) 100%);
+}
+
+.backgroundBlue { 
+    -fx-background-color: #176B87;
+}
+
+
+.mouse-movedBUTTON:hover {
+    -fx-background-color: #229dc6;
+}
+
+
+
+.shadow {
+    -fx-effect: dropShadow (three-pass-box,rgba(0,0,0,0.1), 10.0, 0.0,  0.0, 10.0);
+}
+
+.textField {
+    -fx-background-color: rgba(255,255,255,8.3);
+    -fx-background-radius: 38;
+}
+
+
+
+
+.backgroundButton {
+    -fx-background-color: linear-gradient(to right, #176B87, #000000);
+}
+
+
+.borderBackground {
+    -fx-border-color: #176B87;
+    -fx-border-width: 3px, 3px, 3px, 3px;
+}
+.choice-box {
+    -fx-background-color:  #EEF5FF;
+    -fx-background-radius: 10;
+}
+.backgroundGradient {
+    -fx-background-color: linear-gradient(to bottom, #ffffff, #7BDEFF);
+}
+
+.menuItem:hover {
+    -fx-background-color: lightblue;
+    -fx-border-color:lightblue;
+    -fx-border-width: 0px, 0px, 3px, 0px;
+}
+
+.sidebarItem:hover {
+    -fx-background-color: WHITE;
+    -fx-border-color:WHITE;
+    -fx-border-width:0px, 0px, 0px, 3px;
+}
+
+.table-view {
+    -fx-background-color: white;
+    -fx-background-radius: 10 10 10 10;
+}
+
+.table-view .column-header-background {
+    -fx-background-radius: 20; 
+    -fx-background-insets: 10 10 10 0; 
+}
+
+
+.table-view .column-header .label {
+    -fx-text-fill: white
+}
+
+.selectedbg {
+    -fx-background-color: #12556c;
+}
+
+
+/* @font-face {
+    font-family: 'Nourd';
+    src: url('Nourd-Medium.ttf');
+}
+
+.text {
+    -fx-font-family: "Nourd";
+} */
